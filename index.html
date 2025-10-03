@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Halloween Greeting Card</title>
+
+    <script>
+        // Simple function to change background color
+        function changeBG(color) {
+            document.body.style.background = color;
+        }
+    </script>
+
+    <style>
+        body {
+            background-color: black;
+            margin-left: 20%;
+            margin-right: 20%;
+            border: 3px dashed orange;
+            padding: 15px;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+        h1 {
+            color: orange;
+        }
+        p {
+            background-color: orange;
+            color: black;
+            padding: 8px;
+        }
+        img {
+            width: 200px;
+            margin: 10px;
+            border: 2px solid orange;
+        }
+        button {
+            margin: 5px;
+            padding: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Happy Halloween</h1>
+    <p>Wishing you a fun and spooky night!</p>
+
+    <!-- Replace with your own Halloween pictures -->
+    <img src="pumpkin.jpg" alt="Pumpkin">
+    <img src="ghost.jpg" alt="Ghost">
+
+    <br><br>
+    <button onclick="changeBG('orange')">Orange</button>
+    <button onclick="changeBG('purple')">Purple</button>
+    <button onclick="changeBG('black')">Black</button>
+
+    <br><br>
+    <a href="page2.html">Page 2</a> |
+    <a href="https://en.wikipedia.org/wiki/Halloween" target="_blank">Learn More</a>
+</body>
+</html>
